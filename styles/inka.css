@@ -1,0 +1,76 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background-color: #fcb3d5;
+}
+
+.container {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/321/383/non_2x/abstract-pink-background-pink-modern-shapes-background-vector.jpg");
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+#box_one:hover {
+    color: rgb(216, 60, 86);
+
+    font-size: large;
+}
+
+#box_two:hover {
+    color: rgb(216, 60, 86);
+    font-size: large;
+}
+
+#buttoms{
+    flex: 6;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+}
+
+#logo {
+    flex: 1;
+}
+
+#logo:hover {
+    transition: font-size .3s ease;
+    font-size: 2rem;
+}
+
+
+
+#images {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    place-items: center;
+    padding: 2rem;
+}
+
+section div:hover {
+    transform: scale(1.5);
+}
+
+footer {
+    background-color: rgb(252, 222, 226);
+    margin: 10px;
+    padding: 10px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/321/383/non_2x/abstract-pink-background-pink-modern-shapes-background-vector.jpg");
+}
+
+#ig {
+    content: "\f16d";
+    color: rgb(230, 108, 108);
+    transition: color 1.4s linear;
+}
+#ig:hover {
+    color: rgb(250, 6, 104);
+}
+
