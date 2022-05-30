@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #fcb3d5;
+    background-color: #fef1e1;
 }
 
 .container {
@@ -52,6 +52,7 @@ footer {
     background-color: rgb(252, 222, 226);
     margin: 10px;
     padding: 10px;
+    text-align: center;
     background-image: url("https://static.vecteezy.com/system/resources/previews/003/321/383/non_2x/abstract-pink-background-pink-modern-shapes-background-vector.jpg");
 }
 
