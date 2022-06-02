@@ -2,6 +2,10 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+li {
+    list-style: none;
+}
+
 body {
     background-color: #fef1e1;
 }

@@ -6,6 +6,10 @@ body {
     background-color: #fef1e1;
 }
 
+li {
+    list-style: none;
+}
+
 .container {
     background-image: url("https://static.vecteezy.com/system/resources/previews/003/321/383/non_2x/abstract-pink-background-pink-modern-shapes-background-vector.jpg");
     height: 5rem;

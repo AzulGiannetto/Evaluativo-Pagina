@@ -1,46 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=">
     <title>INKA</title>
     <link rel="stylesheet" href="./styles/contactanos.css">
-    <style type="text/css"> 
-        a { text-decoration: none; 
-            color: rgb(26, 25, 25);} 
-        </style>         
+    <style type="text/css">
+        a {
+            text-decoration: none;
+            color: rgb(26, 25, 25);
+        }
+    </style>
     <!-- CDN FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Letras -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;1,200&family=Oswald:wght@200&display=swap');
     </style>
     <!-- Icono -->
-        <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="./images/inka_logo.jpg"
-      />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/inka_logo.jpg" />
 </head>
+
 <body>
-    
+
     <header>
         <nav class="container">
-            <a href="INKA.index.html" id="logo">Inka</a>
+            <li></li><a href="INKA.index.html" id="logo">Inka</a></li>
             <div id="buttoms">
-                <a href="queSomos.html" id="box_one">¿Qué somos?</a>
-                <a href="contactanos.html" id="box_two"> Contactanos</a>
+                <li><a href="queSomos.html" id="box_one">¿Qué somos?</a></li>
+                <li><a href="contactanos.html" id="box_two"> Contactanos</a></li>
             </div>
         </nav>
     </header>
 
+    <article>
+        <h1> Dejanos tu consulta! </h1>
+        <form>
+            <div class="sing-up">
+                <div>
+                    <label for="name"> Name: </label>
+                </div>
+                <div>
+                    <input type="text" name="name" id="name" placeholder="Ingrese Name" />
+                </div>
+                <div>
+                    <label for="lastname">lastname:</label>
+                </div>
+                <div>
+                    <input type="text" name="lastname" id="lastname" placeholder="Ingrese lastname" />
+                </div>
+                <div>
+                    <label for="phone">Phone: </label>
+                </div>
+                <div>
+                    <input type="number" name="phone" id="phone" placeholder="Ingrese Phone" />
+                </div>
+                <div>
+                    <label for="email"> Email: </label>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" placeholder="Ingrese Email" />
+                </div>
+                <div>
+                    <label for="question">Question: </label>
+                </div>
+                <div>
+                    <input type="text" name="question" id="question" placeholder="Ingrese Question" />
+                </div>
+                <input type="submit" id="submit" />
+            </div>
+<!-- 
+            <input type="reset" value="Reset"> </input>
+            <input type="submit" value="Form"> </input> -->
+
+        </form>
+    </article>
+
     <footer>
-        <a href="https://www.instagram.com/makeupinka_/?hl=es-la" id="ig"> <i class="fa-brands fa-instagram"></i> Nuestro Instagram</a>
+        <li><a href="https://www.instagram.com/makeupinka_/?hl=es-la" id="ig"> <i class="fa-brands fa-instagram"></i>
+                Nuestro Instagram</a></li>
         <br>
         <p>Creada por Azul Giannetto y Alexis Martinez</p>
-        <a href="https://github.com/AzulGiannetto" class="GH"><i class="fa-brands fa-github"></i></i></a>
-        <a href="https://github.com/AlecefeMartinez" class="GH"><i class="fa-brands fa-github"></i></i></a>
-   </footer>
-</body> 
+        <li><a href="https://github.com/AzulGiannetto" class="GH"><i class="fa-brands fa-github"></i></i></a></li>
+        <li><a href="https://github.com/AlecefeMartinez" class="GH"><i class="fa-brands fa-github"></i></i></a></li>
+    </footer>
+
+    <script src="./scripts/contactanos.js"></script></body>
+
 </html>
